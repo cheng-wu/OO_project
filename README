@@ -1,0 +1,19 @@
+1 How to run: 
+	1) ProducerDriver in MPCS-tradeStat-Producer
+	2) SubscriberDriver in MPCS-tradeStst-Subscriber
+	3) ConsumerDriver in MPCS-tradeStat-Consumer
+
+2. Design Pattern:
+	1) Singleton: report engine
+	2) Strategy: statistics generator
+	3) Composite: StockStatInfo and Portfolio, nested
+	4) Iterator
+	. . . 
+
+3. EIP pattern:
+	1) Message Broker: ActiveMQ
+	2) Publish-Subscribe Channel
+	3) Message Filter
+	4) Invalid Message Channel
+	5) Message Channel
+	....
